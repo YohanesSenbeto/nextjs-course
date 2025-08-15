@@ -8,7 +8,10 @@ const NavBar = () => {
 
     return (
         <div className="flex mr-5 py-4 px-5 bg-slate-200">
-            <Link href="/" className="p-2 px-4 mx-4">
+            <Link
+                href="/"
+                className="p-2 px-4 bg-blue-500 text-white rounded-md"
+            >
                 Home
             </Link>
             <Link href="/users" className="p-2 px-4 mx-4">
