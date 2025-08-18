@@ -14,6 +14,9 @@ const NavBar = () => {
             <Link href="/users" className="p-2 px-4 mx-4">
                 Users
             </Link>
+            <Link href="/upload" className="p-2 px-4 mx-4">
+                Upload Files
+            </Link>
 
             {status === "authenticated" && (
                 <div className="flex items-center space-x-3 p-2 px-4 mx-4">
