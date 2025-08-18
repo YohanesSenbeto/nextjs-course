@@ -28,6 +28,19 @@ export default function RootLayout({
                         </Suspense>
                     </main>
                 </AuthProvider>
+                //i want add a footer here
+                <footer className="bg-gray-800 text-white p-4 text-center">
+                    <p>&copy; {new Date().getFullYear()} My Next.js App</p>
+                    <p>
+                        Built with{" "}
+                        <a
+                            href="https://nextjs.org"
+                            className="text-blue-400 hover:underline"
+                        >
+                            Next.js
+                        </a>
+                    </p>
+                </footer>
             </body>
         </html>
     );
